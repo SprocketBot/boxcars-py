@@ -11,7 +11,7 @@ Only tested on linux.
 You have to compile it yourself if you are using Windows.
 
 ```
-pip install boxcars-py
+pip install sprocket-boxcars-py
 ```
 
 ## Usage
@@ -31,11 +31,9 @@ replay = parse_replay(buf)
 
 __Requirements__
   - Rust.
-  - [poetry](https://pypi.org/project/poetry/)
+  - `maturin`
 
 ```
-# Install dependencies
-poetry install
-# Build
-make
+maturin develop
+maturin publish
 ```
