@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "boxcars_py"
+name = "sprocket_boxcars_py"
 version = "0.1.14"
 description = "Python bindings for the Rocket League replay parser boxcars."
-authors = ["Justus K <justus.k@pm.me>", "Matthew Mage <sciguymjm@gmail.com>"]
+authors = ["Jake Bailey <asaxplayinghorse@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/SaltieRL/BoxcarWrapper"
+repository = "https://github.com/SprocketBot/boxcars-py"
 
 [tool.poetry.dependencies]
 python = "^3.6"

@@ -1,6 +1,9 @@
 # Boxcars-py
 
-Python bindings for the [Boxcars](https://github.com/nickbabcock/boxcars) Rocket League replay parser.
+Python bindings for the [Boxcars](https://github.com/nickbabcock/boxcars) Rocket
+League replay parser. This is a fork of [SaltieRL's
+package](https://github.com/SaltieRL/boxcars-py) which sadly seems to no longer
+be maintained. 
 
 ## Installation
 
