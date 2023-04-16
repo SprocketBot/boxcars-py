@@ -1,0 +1,30 @@
+[package]
+name = "boxcars-py"
+version = "0.1.15"
+authors = ["Justus K <justus.k@protonmail.com>", "Matthew Mage <sciguymjm@gmail.com>"]
+edition = "2018"
+
+[package.metadata.maturin]
+classifier = [
+    "Intended Audience :: Developers",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python",
+    "Programming Language :: Rust",
+]
+
+[dependencies]
+boxcars = "0.9.4"
+serde_json = "1.0.52"
+
+[dependencies.pyo3]
+version = "0.13.0"
+features = ["extension-module"]
+
+[lib]
+name = "boxcars_py"
+crate-type = ["cdylib"]
