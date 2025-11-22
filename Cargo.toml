@@ -16,4 +16,4 @@ crate-type = ["cdylib"]
 [dependencies]
 boxcars = "0.10"
 serde_json = "1.0.133"
-pyo3 = "0.22.0"
+pyo3 = "0.24.1"
